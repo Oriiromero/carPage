@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="header-style.css">
+    <link rel="stylesheet" href="gallery-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap" rel="stylesheet">
 
 
@@ -16,106 +20,103 @@
 <body>
     <!-- HEADER & NAVBAR -->
     <header>
-        <div class="nav-box">    
-            <nav>
-                <div class="navbar-left">
-                        <ul>
-                            <li>Modelos</li>
-                            <li>Promociones</li>
-                            <li>Servicios</li>
-                            <li>Universo BMW</li>
-                        </ul>
+        <nav class="nav">
+            <div class="nav--left">
+              <div class="nav__links">
+                <div class="nav__links--model"><a href="#"><b>Modelos</b></a></div>
+                <div class="nav__links--promo"><a href="#"><b>Promociones</b></a></div>
+                <div class="nav__links--servi"><a href="#"><b>Servicios</b></a></div>
+                <div class="nav__links--univ"><a href="#"><b>Universo BMW</b></a></div>
+              </div>
+              <div class="nav__iconos">
+                <div class="nav__iconos--item">
+                  <a href="#"><img src="images/search.png" alt="" class="icono"/></a>
                 </div>
-                <div class="navbar-icons">
-                    <div class="navbar-icons_i">
-                        <img src="images/search.png" alt="search">
-                        <img src="images/user.png" alt="user">
-                        <img src="images/ubi.png" alt="ubi">
-                    </div>
-                    <div class="navbar-icons_logo">
-                        <img src="images/bmw-logo.png" alt="logo">
-                    </div>
+                <div class="nav__iconos--item">
+                  <a href="#"><img src="images/user.png" alt="" class="icono"/></a>
                 </div>
-                
-            </nav> 
-        </div>
-        <div class="empty"></div>
+                <div class="nav__iconos--item">
+                  <a href="#"><img src="images/ubi.png" alt="" class="icono"/></a>
+                </div>
+              </div>
+            </div>
+            <div class="nav--right">
+              <div class="nav__logo">
+                <img src="images/bmw-logo.png" alt="" />
+              </div>
+            </div>
+        </nav>
         <div class="header-message">
-            <div class="header-message-h">
-                <h1> TU BMW CON DISPONIBILIDAD INMEDIATA </h1>
-                <h3> VEHICULOS NUEVOS EN STOCK </h3>
-            </div>
-            <div class="btn"> 
-                <button>DESCUBRELO</button>
-            </div>
+            <h1> TU BMW CON DISPONIBILIDAD INMEDIATA </h1>
+            <h3> VEHICULOS NUEVOS EN STOCK </h3>
+            <button>DESCUBRELO</button>
         </div>
     </header>
-    <!-- SELECTOR FAKE CAROUSEL -->
-    <div class="selector">
-        <div class="options">
+    <!--FAKE GALLERY-->
+    <div class="f-gallery">
+        <!-- SELECTOR FAKE CAROUSEL -->
             <div class="options-title">
                 <h5> Series </h5>
             </div>
-            <div class="options-divst">
+            <div class="options">
+                <div class="options-divs">
+                        <div><a href="#"> Cabrio </a></div>
+                        <div><a href="#"> Berdivna </a></div>
+                        <div><a href="#"> Compacto </a></div>
+                        <div><a href="#"> Coupe </a></div>
+                        <div><a href="#"> BMW i </a></div>
+                        <div><a href="#"> Todocamino </a></div>
+                        <div><a href="#"> Touring </a></div>
+                        <div><a href="#"> Roadster </a></div>
+                </div>
+            </div>
+        <!-- GALLERY -->
+        <div class="gallery">
+            <div class="gallery-box">
+                <img src="images/serie2.png" alt="car">
+                <h6><strong> BMW Serie 2 Cabrio </strong></h6>
+                <p> Desde 39.000 €</p>
                 <ul>
-                    <div><a href="#"> Cabrio </a></div>
-                    <div><a href="#"> Berdivna </a></div>
-                    <div><a href="#"> Compacto </a></div>
-                    <div><a href="#"> Coupe </a></div>
-                    <div><a href="#"> BMW i </a></div>
-                    <div><a href="#"> Todocamino </a></div>
-                    <div><a href="#"> Touring </a></div>
-                    <div><a href="#"> Roadster </a></div>
+                    <li> >  Configurar</li>
+                    <li> >  Explorar</li>
                 </ul>
             </div>
-        </div>
-    </div>
-      <!-- GALLERY -->
-    <div class="gallery">
-        <div class="gallery-box">
-            <img src="images/BMW-SERIE-2-CABRIO.png" alt="car">
-            <h6> BMW Serie 2 Cabrio</h6>
-            <p> Desde 39.000 €</p>
-            <ul>
-                <li> > Configurar</li>
-                <li> > Explorar</li>
-            </ul>
-        </div>
-        <div class="gallery-box">
-            <img src="images/BMW-SERIE-4.png" alt="car">
-            <h6> BMW Serie 4 Cabrio</h6>
-            <p> Desde 52.900 €</p>
-            <ul>
-                <li> > Configurar</li>
-                <li> > Explorar</li>
-            </ul>
-        </div>
-        <div class="gallery-box">
-            <img src="images/BMW-Serie-8-Cabrio.png" alt="car">
-            <h6> Nuevo BMW Serie 8 Cabrio</h6>
-            <p> Desde 121.400 €</p>
-            <ul>
-                <li> > Configurar</li>
-                <li> > Explorar</li>
-            </ul>
-        </div>
-        <div class="gallery-box">
-            <img src="images/bmw-2-series-convertible-m240i-m.png" alt="car">
-            <h6> BMW M240i Cabrio </h6>
-            <p> Desde 61.500 €</p>
-            <ul>
-                <li> > Configurar</li>
-                <li> > Explorar</li>
-            </ul>
-        </div>
-        <div class="gallery-box">
-            <img src="images/m4-convertible.png" alt="car">
-            <h6> Nuevo BMW M4 Cabrio</h6>
-            <p> Desde 106.900 €</p>
-            <ul>
-                <li> > Configurar</li>
-                <li> > Explorar</li>
-            </ul>
+            <div class="gallery-box">
+                <img src="images/serie-4.png" alt="car">
+                <h6> BMW Serie 4 Cabrio</h6>
+                <p> Desde 52.900 €</p>
+                <ul>
+                    <li> >  Configurar</li>
+                    <li> >  Explorar</li>
+                </ul>
+            </div>
+            <div class="gallery-box">
+                <img src="images/serie-8.png" alt="car">
+                <h6> Nuevo BMW Serie 8 Cabrio</h6>
+                <p> Desde 121.400 €</p>
+                <ul>
+                    <li> >  Configurar</li>
+                    <li> >  Explorar</li>
+                </ul>
+            </div>
+            <div class="gallery-box">
+                <img src="images/M8.png" alt="car">
+                <h6> BMW M8 Cabrio Competition </h6>
+                <p> Desde 61.500 €</p>
+                <ul>
+                    <li> >  Configurar</li>
+                    <li> >  Explorar</li>
+                </ul>
+            </div>
+            <div class="gallery-box">
+                <img src="images/convertible.png" alt="car">
+                <h6> Nuevo BMW M4 Cabrio</h6>
+                <p> Desde 106.900 €</p>
+                <ul>
+                    <li> >  Configurar</li>
+                    <li> >  Explorar</li>
+                </ul>
+            </div>
         </div>
     </div>
     <!-- PROMO SMALL -->
