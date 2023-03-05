@@ -1,0 +1,115 @@
+.promo {
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    height: 60vh;
+    padding-top: 150px;
+    margin-bottom: 50px;
+}
+
+.promo-box {
+    width: 300px;
+    border: solid 1px #E0DECA;
+    height: 80%;
+    padding: 19px;
+    margin: 0 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.promo-box img {
+    width: 100%;
+}
+
+.promo-box h5 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5rem;
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+
+.promo-box p {
+    margin: 15px 0;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.8px;
+}
+
+.pedir-cita {
+    position: absolute;
+    margin-top: 430px;
+    cursor: pointer;
+}
+
+
+/* PROMO BIG */
+.promo-big {
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    height: 50vh;
+    margin-bottom: 50px;
+}
+
+.promo-big-box {
+    width: 600px;
+    border: solid 1px #E0DECA;
+    height: 85%;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.promo-big-box img {
+    width: 100%;
+}
+
+.promo-big-box h5 {
+    margin: 10px 0;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.promo-big-box p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+
+/* SHORTCUTS */
+.shortcut {
+    width: 95vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 37px;
+}
+
+.shortcut-box {
+    background-color: rgba(234, 229, 229, 0.66);
+    margin: 20px;
+    height: 50%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shortcut-box img {
+    width: 10%;
+}
+
+.shortcut-box p {
+    font-family: 'Cabin', sans-serif;
+    padding-top: 15px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
