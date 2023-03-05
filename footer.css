@@ -1,0 +1,61 @@
+footer {
+    height: 450px;
+}
+
+.info {
+    height: 80%;
+    background-color: rgba(234, 229, 229, 0.66);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+
+.info-box p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.info-box li {
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.5px;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.info-box a {
+  text-decoration: none;
+  color: #797A7E;
+}
+
+.cpy {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20%;
+}
+
+.copy-links ul{
+    display: flex;
+}
+
+.copy-links li {
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.5px;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.copy-links a {
+    text-decoration: none;
+    color: #5F9DF7;
+}
